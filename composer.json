@@ -1,0 +1,26 @@
+{
+    "name": "waqar/productmanagement",
+    "description": "A simple modified Point of sale package",
+    "type": "library",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "waqar\\productmanagement\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "WaqarHussainKhalid",
+            "email": "waqarhussainkhalid@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "waqar\\productmanagement\\ProductManagementServiceProvider"
+            ]
+        }
+    }
+}
